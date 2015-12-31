@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7DB5EA1C35F11A00AFE873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB5E91C35F11A00AFE873 /* AppDelegate.swift */; };
+		3F7DB5EC1C35F11A00AFE873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB5EB1C35F11A00AFE873 /* ViewController.swift */; };
+		3F7DB5EF1C35F11A00AFE873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB5ED1C35F11A00AFE873 /* Main.storyboard */; };
+		3F7DB5F11C35F11A00AFE873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB5F01C35F11A00AFE873 /* Assets.xcassets */; };
+		3F7DB5F41C35F11A00AFE873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB5F21C35F11A00AFE873 /* LaunchScreen.storyboard */; };
+		3F7DB5FF1C35F11A00AFE873 /* TipsForTheLazyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB5FE1C35F11A00AFE873 /* TipsForTheLazyTests.swift */; };
+		3F7DB60A1C35F11A00AFE873 /* TipsForTheLazyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB6091C35F11A00AFE873 /* TipsForTheLazyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F7DB5FB1C35F11A00AFE873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7DB5DE1C35F11A00AFE873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7DB5E51C35F11A00AFE873;
+			remoteInfo = TipsForTheLazy;
+		};
+		3F7DB6061C35F11A00AFE873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7DB5DE1C35F11A00AFE873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7DB5E51C35F11A00AFE873;
+			remoteInfo = TipsForTheLazy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F7DB5E61C35F11A00AFE873 /* TipsForTheLazy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipsForTheLazy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7DB5E91C35F11A00AFE873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F7DB5EB1C35F11A00AFE873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F7DB5EE1C35F11A00AFE873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7DB5F01C35F11A00AFE873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7DB5F31C35F11A00AFE873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7DB5F51C35F11A00AFE873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7DB5FA1C35F11A00AFE873 /* TipsForTheLazyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsForTheLazyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7DB5FE1C35F11A00AFE873 /* TipsForTheLazyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsForTheLazyTests.swift; sourceTree = "<group>"; };
+		3F7DB6001C35F11A00AFE873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7DB6051C35F11A00AFE873 /* TipsForTheLazyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsForTheLazyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7DB6091C35F11A00AFE873 /* TipsForTheLazyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsForTheLazyUITests.swift; sourceTree = "<group>"; };
+		3F7DB60B1C35F11A00AFE873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7DB5E31C35F11A00AFE873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7DB5F71C35F11A00AFE873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7DB6021C35F11A00AFE873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7DB5DD1C35F11A00AFE873 = {
+			isa = PBXGroup;
+			children = (
+				3F7DB5E81C35F11A00AFE873 /* TipsForTheLazy */,
+				3F7DB5FD1C35F11A00AFE873 /* TipsForTheLazyTests */,
+				3F7DB6081C35F11A00AFE873 /* TipsForTheLazyUITests */,
+				3F7DB5E71C35F11A00AFE873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7DB5E71C35F11A00AFE873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7DB5E61C35F11A00AFE873 /* TipsForTheLazy.app */,
+				3F7DB5FA1C35F11A00AFE873 /* TipsForTheLazyTests.xctest */,
+				3F7DB6051C35F11A00AFE873 /* TipsForTheLazyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7DB5E81C35F11A00AFE873 /* TipsForTheLazy */ = {
+			isa = PBXGroup;
+			children = (
+				3F7DB5E91C35F11A00AFE873 /* AppDelegate.swift */,
+				3F7DB5EB1C35F11A00AFE873 /* ViewController.swift */,
+				3F7DB5ED1C35F11A00AFE873 /* Main.storyboard */,
+				3F7DB5F01C35F11A00AFE873 /* Assets.xcassets */,
+				3F7DB5F21C35F11A00AFE873 /* LaunchScreen.storyboard */,
+				3F7DB5F51C35F11A00AFE873 /* Info.plist */,
+			);
+			path = TipsForTheLazy;
+			sourceTree = "<group>";
+		};
+		3F7DB5FD1C35F11A00AFE873 /* TipsForTheLazyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7DB5FE1C35F11A00AFE873 /* TipsForTheLazyTests.swift */,
+				3F7DB6001C35F11A00AFE873 /* Info.plist */,
+			);
+			path = TipsForTheLazyTests;
+			sourceTree = "<group>";
+		};
+		3F7DB6081C35F11A00AFE873 /* TipsForTheLazyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7DB6091C35F11A00AFE873 /* TipsForTheLazyUITests.swift */,
+				3F7DB60B1C35F11A00AFE873 /* Info.plist */,
+			);
+			path = TipsForTheLazyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7DB5E51C35F11A00AFE873 /* TipsForTheLazy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7DB60E1C35F11A00AFE873 /* Build configuration list for PBXNativeTarget "TipsForTheLazy" */;
+			buildPhases = (
+				3F7DB5E21C35F11A00AFE873 /* Sources */,
+				3F7DB5E31C35F11A00AFE873 /* Frameworks */,
+				3F7DB5E41C35F11A00AFE873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipsForTheLazy;
+			productName = TipsForTheLazy;
+			productReference = 3F7DB5E61C35F11A00AFE873 /* TipsForTheLazy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F7DB5F91C35F11A00AFE873 /* TipsForTheLazyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7DB6111C35F11A00AFE873 /* Build configuration list for PBXNativeTarget "TipsForTheLazyTests" */;
+			buildPhases = (
+				3F7DB5F61C35F11A00AFE873 /* Sources */,
+				3F7DB5F71C35F11A00AFE873 /* Frameworks */,
+				3F7DB5F81C35F11A00AFE873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7DB5FC1C35F11A00AFE873 /* PBXTargetDependency */,
+			);
+			name = TipsForTheLazyTests;
+			productName = TipsForTheLazyTests;
+			productReference = 3F7DB5FA1C35F11A00AFE873 /* TipsForTheLazyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F7DB6041C35F11A00AFE873 /* TipsForTheLazyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7DB6141C35F11A00AFE873 /* Build configuration list for PBXNativeTarget "TipsForTheLazyUITests" */;
+			buildPhases = (
+				3F7DB6011C35F11A00AFE873 /* Sources */,
+				3F7DB6021C35F11A00AFE873 /* Frameworks */,
+				3F7DB6031C35F11A00AFE873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7DB6071C35F11A00AFE873 /* PBXTargetDependency */,
+			);
+			name = TipsForTheLazyUITests;
+			productName = TipsForTheLazyUITests;
+			productReference = 3F7DB6051C35F11A00AFE873 /* TipsForTheLazyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7DB5DE1C35F11A00AFE873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = codepath;
+				TargetAttributes = {
+					3F7DB5E51C35F11A00AFE873 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3F7DB5F91C35F11A00AFE873 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3F7DB5E51C35F11A00AFE873;
+					};
+					3F7DB6041C35F11A00AFE873 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3F7DB5E51C35F11A00AFE873;
+					};
+				};
+			};
+			buildConfigurationList = 3F7DB5E11C35F11A00AFE873 /* Build configuration list for PBXProject "TipsForTheLazy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7DB5DD1C35F11A00AFE873;
+			productRefGroup = 3F7DB5E71C35F11A00AFE873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7DB5E51C35F11A00AFE873 /* TipsForTheLazy */,
+				3F7DB5F91C35F11A00AFE873 /* TipsForTheLazyTests */,
+				3F7DB6041C35F11A00AFE873 /* TipsForTheLazyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7DB5E41C35F11A00AFE873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7DB5F41C35F11A00AFE873 /* LaunchScreen.storyboard in Resources */,
+				3F7DB5F11C35F11A00AFE873 /* Assets.xcassets in Resources */,
+				3F7DB5EF1C35F11A00AFE873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7DB5F81C35F11A00AFE873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7DB6031C35F11A00AFE873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7DB5E21C35F11A00AFE873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7DB5EC1C35F11A00AFE873 /* ViewController.swift in Sources */,
+				3F7DB5EA1C35F11A00AFE873 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7DB5F61C35F11A00AFE873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7DB5FF1C35F11A00AFE873 /* TipsForTheLazyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7DB6011C35F11A00AFE873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7DB60A1C35F11A00AFE873 /* TipsForTheLazyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7DB5FC1C35F11A00AFE873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7DB5E51C35F11A00AFE873 /* TipsForTheLazy */;
+			targetProxy = 3F7DB5FB1C35F11A00AFE873 /* PBXContainerItemProxy */;
+		};
+		3F7DB6071C35F11A00AFE873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7DB5E51C35F11A00AFE873 /* TipsForTheLazy */;
+			targetProxy = 3F7DB6061C35F11A00AFE873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F7DB5ED1C35F11A00AFE873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7DB5EE1C35F11A00AFE873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7DB5F21C35F11A00AFE873 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7DB5F31C35F11A00AFE873 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7DB60C1C35F11A00AFE873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F7DB60D1C35F11A00AFE873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7DB60F1C35F11A00AFE873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipsForTheLazy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TipsForTheLazy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F7DB6101C35F11A00AFE873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipsForTheLazy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TipsForTheLazy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F7DB6121C35F11A00AFE873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TipsForTheLazyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TipsForTheLazyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipsForTheLazy.app/TipsForTheLazy";
+			};
+			name = Debug;
+		};
+		3F7DB6131C35F11A00AFE873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TipsForTheLazyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TipsForTheLazyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipsForTheLazy.app/TipsForTheLazy";
+			};
+			name = Release;
+		};
+		3F7DB6151C35F11A00AFE873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TipsForTheLazyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TipsForTheLazyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TipsForTheLazy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F7DB6161C35F11A00AFE873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TipsForTheLazyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TipsForTheLazyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TipsForTheLazy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7DB5E11C35F11A00AFE873 /* Build configuration list for PBXProject "TipsForTheLazy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7DB60C1C35F11A00AFE873 /* Debug */,
+				3F7DB60D1C35F11A00AFE873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7DB60E1C35F11A00AFE873 /* Build configuration list for PBXNativeTarget "TipsForTheLazy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7DB60F1C35F11A00AFE873 /* Debug */,
+				3F7DB6101C35F11A00AFE873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F7DB6111C35F11A00AFE873 /* Build configuration list for PBXNativeTarget "TipsForTheLazyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7DB6121C35F11A00AFE873 /* Debug */,
+				3F7DB6131C35F11A00AFE873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F7DB6141C35F11A00AFE873 /* Build configuration list for PBXNativeTarget "TipsForTheLazyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7DB6151C35F11A00AFE873 /* Debug */,
+				3F7DB6161C35F11A00AFE873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7DB5DE1C35F11A00AFE873 /* Project object */;
+}
